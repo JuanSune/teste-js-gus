@@ -1,0 +1,1 @@
+console.log("O teste da tecla F8 funcionou perfeitamente");
