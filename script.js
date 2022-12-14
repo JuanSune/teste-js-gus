@@ -6,8 +6,6 @@ function carregar()
     var obIMG = window.document.getElementById('imagem');
     var colorBack = window.document.body.style;
 
-    dDia = 13;
-
     textMSG.innerText = `A hora agora é ${dDia} ou seja, é de`;
 
     if(dDia>4 && dDia<12)
