@@ -6,6 +6,7 @@ function carregar()
     var obIMG = window.document.getElementById('imagem');
     var colorBack = window.document.body.style;
 
+    dDia = 13;
 
     textMSG.innerText = `A hora agora é ${dDia} ou seja, é de`;
 
@@ -13,13 +14,13 @@ function carregar()
     {
         textMSG.innerText+=` manha`;
         obIMG.src = "manha.jpg";
-        colorBack.backgroundColor  ="#131C45";
+        colorBack.backgroundColor  ="#FA835A88";
     }
     else if(dDia>12 && dDia<19)
     {
         textMSG.innerText+=` tarde`;
         obIMG.src = "tarde.jpg";
-        colorBack.backgroundColor  ="#131C45";       
+        colorBack.backgroundColor  ="#BBAC79";       
     }
     else
     {
