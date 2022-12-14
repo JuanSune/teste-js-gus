@@ -8,17 +8,26 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body onload="carregar()"> 
+<body> 
         <header>
-            <h1>Hora do Dia</h1>
+            <h1>Vamos contar</h1>
         </header>     
         <section>
-            
-                <div id="msg">
-                    
+                <div id="inicio">
+                    <label for="inumber">Inicio</label>
+                    <input type="number" name="" id="inumber">
                 </div>
-                <div id="foto">
-                    <img id="imagem" src="manha.jpg" alt="foto do dia">
+                <div id="fim">
+                    <label for="fnumber">Fim</label>
+                    <input type="number" name="" id="fnumber">
+                </div>
+                <div id="passo">
+                    <label for="pnumber">Passo</label>
+                    <input type="number" name="" id="pnumber">
+                </div>
+                <input type="button" value="Confirmar" id="confirmar">
+                <div id="contador">
+                    <P>CONTADO</P>
                 </div>
         </section>           
         <footer>
