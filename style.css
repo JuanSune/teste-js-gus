@@ -72,3 +72,41 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none; 
   margin: 0; 
 }
+
+input[type=number]::placeholder
+{
+    text-align: center;
+    opacity: 90%;
+}
+
+/* input[type=number] 
+{
+       border: 1px solid black;
+    border-radius: 7px;
+ } */
+
+ input[type=button]
+ {
+   padding: 10px;
+   background-color: white;
+   border: 1px solid rgba(0, 0, 0, 0.448);
+    border-radius: 7px;
+ }
+
+ input[type=button]:hover
+ {
+    border-color: rgb(235, 235, 235);
+    background-color: rgba(0, 0, 0, 0.511);
+    
+    color: white;
+ }
+
+ input[type=number]::selection
+ {
+    border-color: rgb(235, 235, 235);
+ }
+
+ label
+ {
+    opacity: 60%;
+ }
