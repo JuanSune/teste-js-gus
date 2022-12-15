@@ -13,27 +13,33 @@
             <h1>Vamos contar</h1>
         </header>     
         <section>
+
                 <div id="inicio">
                     <label for="inumber">Inicio</label>
                     <input type="number" name="" id="inumber" placeholder="Type a number">
                 </div>
+
                 <div id="fim">
                     <label for="fnumber">Fim</label>
                     <input type="number" name="" id="fnumber" placeholder="Type a number">
                 </div>
+
                 <div id="passo">
                     <label for="pnumber">Passo</label>
-                    <input type="number" name="" id="pnumber" placeholder="Type a number">
+                    <input type="number" name="" id="pnumber">
                 </div>
-                <input type="button" value="Confirmar" id="confirmar">
+
+                <input type="button" value="Confirmar" id="confirmar" onclick="carregar()">
+              
                 <div id="contador">
                     <P>CONTADO</P>
                 </div>
+
         </section>           
         <footer>
             EmpresaNaoExiste
         </footer>
-
+        
      <script src="script.js"></script>
 </body>
 </html>

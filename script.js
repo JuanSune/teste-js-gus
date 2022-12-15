@@ -1,15 +1,20 @@
 function carregar()
 {
-    var d = new Date();
+    var inumb = document.getElementById('inumber').value;
+
+    
+    console.log(inumb);
+
+    /* 
     var dDia = (d.getHours()).toString();
     var textMSG = window.document.getElementById('msg');
     var obIMG = window.document.getElementById('imagem');
-    var colorBack = window.document.body.style;
+    var colorBack = window.document.body.style;        
 
     dDia = 13;
 
     textMSG.innerText = `A hora agora é ${dDia} ou seja, é de`;
-
+    
     if(dDia>4 && dDia<12)
     {
         textMSG.innerText+=` manha`;
@@ -28,5 +33,5 @@ function carregar()
         obIMG.src = "noite.jpg";
         colorBack.backgroundColor  ="#131C45";
     }
-  
+    */   
 }
