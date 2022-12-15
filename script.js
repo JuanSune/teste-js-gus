@@ -5,6 +5,8 @@ function carregar()
     
     console.log(inumb);
 
+    
+
     /* 
     var dDia = (d.getHours()).toString();
     var textMSG = window.document.getElementById('msg');
