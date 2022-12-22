@@ -1,39 +1,28 @@
-function carregar()
-{
+function carregar(){
     var inumb = document.getElementById('inumber').value;
 
-    
-    console.log(inumb);
+    var fnumb = document.getElementById('fnumber').value;
 
-    
+    var pnumb = document.getElementById('pnumber').value;
+ 
+    var Contador = document.getElementById('contador');
 
-    /* 
-    var dDia = (d.getHours()).toString();
-    var textMSG = window.document.getElementById('msg');
-    var obIMG = window.document.getElementById('imagem');
-    var colorBack = window.document.body.style;        
+    var house1 = new Array(3);
 
-    dDia = 13;
+    house1[0] = inumb;
+    house1[1] = fnumb;
+    house1[2] = pnumb;
 
-    textMSG.innerText = `A hora agora é ${dDia} ou seja, é de`;
-    
-    if(dDia>4 && dDia<12)
+    house1.forEach(numberCheck);
+}
+
+function numberCheck(i){ 
+    if(i == 0 || i == null)
     {
-        textMSG.innerText+=` manha`;
-        obIMG.src = "manha.jpg";
-        colorBack.backgroundColor  ="#FA835A88";
-    }
-    else if(dDia>12 && dDia<19)
-    {
-        textMSG.innerText+=` tarde`;
-        obIMG.src = "tarde.jpg";
-        colorBack.backgroundColor  ="#BBAC79";       
+        alert('Verifique as informações');
     }
     else
     {
-        textMSG.innerText+=` noite`;
-        obIMG.src = "noite.jpg";
-        colorBack.backgroundColor  ="#131C45";
+        alert('Deu tudo certo');
     }
-    */   
 }
